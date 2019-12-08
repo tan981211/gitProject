@@ -68,6 +68,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="17.aspx" />
     <Content Include="GridDetails.aspx" />
     <Content Include="GridMain.aspx" />
     <Content Include="GridMainSub.aspx" />
@@ -78,10 +79,16 @@
     <Content Include="WebForm4.aspx" />
     <Content Include="WebForm5.aspx" />
     <Content Include="WebForm6.aspx" />
-    <Content Include="xx7.aspx" />
     <Content Include="结合GridView和独立页面修改数据页面.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="17.aspx.cs">
+      <DependentUpon>17.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="17.aspx.designer.cs">
+      <DependentUpon>17.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DataClasses1.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -150,13 +157,6 @@
     </Compile>
     <Compile Include="WebForm6.aspx.designer.cs">
       <DependentUpon>WebForm6.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="xx7.aspx.cs">
-      <DependentUpon>xx7.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="xx7.aspx.designer.cs">
-      <DependentUpon>xx7.aspx</DependentUpon>
     </Compile>
     <Compile Include="结合GridView和独立页面修改数据页面.aspx.cs">
       <DependentUpon>结合GridView和独立页面修改数据页面.aspx</DependentUpon>
