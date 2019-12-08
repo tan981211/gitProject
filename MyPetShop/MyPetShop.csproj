@@ -78,7 +78,7 @@
     <Content Include="WebForm4.aspx" />
     <Content Include="WebForm5.aspx" />
     <Content Include="WebForm6.aspx" />
-    <Content Include="主从表值从表.aspx" />
+    <Content Include="WebForm7.aspx" />
     <Content Include="结合GridView和独立页面修改数据页面.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -151,12 +151,12 @@
     <Compile Include="WebForm6.aspx.designer.cs">
       <DependentUpon>WebForm6.aspx</DependentUpon>
     </Compile>
-    <Compile Include="主从表值从表.aspx.cs">
-      <DependentUpon>主从表值从表.aspx</DependentUpon>
+    <Compile Include="WebForm7.aspx.cs">
+      <DependentUpon>WebForm7.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="主从表值从表.aspx.designer.cs">
-      <DependentUpon>主从表值从表.aspx</DependentUpon>
+    <Compile Include="WebForm7.aspx.designer.cs">
+      <DependentUpon>WebForm7.aspx</DependentUpon>
     </Compile>
     <Compile Include="结合GridView和独立页面修改数据页面.aspx.cs">
       <DependentUpon>结合GridView和独立页面修改数据页面.aspx</DependentUpon>

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace MyPetShop
 {
-    public partial class 主从表值从表 : System.Web.UI.Page
+    public partial class WebForm7 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
